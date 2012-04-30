@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Android</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2968BC2E-5B7A-4E09-9786-8E0A5959902D}</ProjectGuid>
+    <TargetNMMLFile>HaxePunkBasics.nmml</TargetNMMLFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Android' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|BlackBerry' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Flash' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|HTML5' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iOS' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+    <AdditionalArguments>-simulator</AdditionalArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Linux' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Mac' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|webOS' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Windows' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Android' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|BlackBerry' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Flash' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|HTML5' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iOS' ">
+    <OutputPath>.</OutputPath>
+    <AdditionalArguments>-simulator</AdditionalArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Linux' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Mac' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|webOS' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Windows' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Assets\nme.svg" />
+    <Compile Include="Source\HaxePunkBasics.hx" />
+    <Compile Include="HaxePunkBasics.nmml" />
+    <Compile Include="Assets\font\04B_03__.ttf" />
+    <Compile Include="Assets\font\README" />
+    <Compile Include="Assets\gfx\debug\console_debug.png" />
+    <Compile Include="Assets\gfx\debug\console_logo.png" />
+    <Compile Include="Assets\gfx\debug\console_output.png" />
+    <Compile Include="Assets\gfx\debug\console_pause.png" />
+    <Compile Include="Assets\gfx\debug\console_play.png" />
+    <Compile Include="Assets\gfx\debug\console_step.png" />
+    <Compile Include="Assets\gfx\README" />
+    <Compile Include="Assets\music\README" />
+    <Compile Include="Assets\sfx\README" />
+    <Compile Include="Source\com\bqs\mundos\MiMundo.hx" />
+    <Compile Include="Source\com\bqs\entidades\MiEntidad.hx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Source\com\" />
+    <Folder Include="Source\com\bqs\" />
+    <Folder Include="Source\com\bqs\mundos\" />
+    <Folder Include="Source\com\bqs\entidades\" />
+  </ItemGroup>
+</Project>
