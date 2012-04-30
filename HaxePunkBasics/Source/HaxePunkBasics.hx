@@ -1,5 +1,6 @@
 package;
 
+import com.bqs.mundos.MiMundo;
 import com.haxepunk.Engine;
 import com.haxepunk.HXP;
 import nme.display.Sprite;
@@ -30,6 +31,8 @@ class HaxePunkBasics extends Engine {
 		HXP.screen.scale = 1;
 		
 		HXP.console.log(["Motor Inicializado"]);
+		
+		HXP.world = new MiMundo();
 	}
 	
 	public static function main () {
