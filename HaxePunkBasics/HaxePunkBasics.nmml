@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="HaxePunkBasics" package="com.testing.myapplication" version="1.0.0" company="" />
+	<app main="HaxePunkBasics" file="HaxePunkBasics" path="Export" />
+	
+	<window width="800" height="600" unless="mobile" />
+	<window fps="30" />
+
+	<app preloader="com.haxepunk.Preloader" />
+
+	<source path="Source" />
+	
+	<haxelib name="nme" />
+	<haxelib name="HaxePunk" />
+	
+	<assets path="Assets" rename="assets" include="*" exclude="nme.svg" />
+	<assets path="Assets/gfx" rename="gfx" type="image" include="*.png" />
+	<assets path="Assets/sfx" rename="sfx" type="sound" include="*.wav" />
+	<assets path="Assets/music" rename="music" type="music" include="*.mp3" />
+	<assets path="Assets/font" rename="font" type="font" include="*.ttf" />
+
+	<icon path="Assets/nme.svg" />
+	
+	<ndll name="std" />
+	<ndll name="regexp" />
+	<ndll name="zlib" />
+	<ndll name="nme" haxelib="nme" />
+	
+</project>
